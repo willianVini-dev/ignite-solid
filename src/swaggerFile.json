@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info":{
     "title": "SOLID Documentation",
-    "description":"Introduction solid",
+    "description":"Basic api development concepts with solid architecture",
     "version": "1.0.0",
     "contact":{
       "email": "willianvini-dev@outlook.com"
@@ -86,8 +86,8 @@
     "/users/:user_id/admin":{
       "patch":{
         "tags":["Users"],
-        "summary": "update a user for admin",
-        "descrption": "update a user for admin",
+        "summary": "Update a user for admin",
+        "descrption": "Update a user for admin",
         "parameters": [
           {
             "name": "user_id",
